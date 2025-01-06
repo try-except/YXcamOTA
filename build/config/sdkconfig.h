@@ -294,7 +294,7 @@
 #define CONFIG_PARTITION_TABLE_FILENAME "partitions_two_ota.csv"
 #define CONFIG_PARTITION_TABLE_OFFSET 0x8000
 #define CONFIG_PARTITION_TABLE_MD5 1
-#define CONFIG_EXAMPLE_FIRMWARE_UPGRADE_URL "https://gitlab.com/try-except/yxcamota/-/releases/permalink/latest"
+#define CONFIG_EXAMPLE_FIRMWARE_UPGRADE_URL "https://github.com/try-except/YXcamOTA/releases/latest/download/advanced_https_ota.bin"
 #define CONFIG_EXAMPLE_OTA_RECV_TIMEOUT 5000
 #define CONFIG_ENV_GPIO_RANGE_MIN 0
 #define CONFIG_ENV_GPIO_RANGE_MAX 39

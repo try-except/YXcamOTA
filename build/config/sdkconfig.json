@@ -375,7 +375,7 @@
     "EXAMPLE_CONNECT_PPP": false,
     "EXAMPLE_CONNECT_WIFI": true,
     "EXAMPLE_ENABLE_PARTIAL_HTTP_DOWNLOAD": false,
-    "EXAMPLE_FIRMWARE_UPGRADE_URL": "https://gitlab.com/try-except/yxcamota/-/releases/permalink/latest",
+    "EXAMPLE_FIRMWARE_UPGRADE_URL": "https://github.com/try-except/YXcamOTA/releases/latest/download/advanced_https_ota.bin",
     "EXAMPLE_OTA_RECV_TIMEOUT": 5000,
     "EXAMPLE_PROVIDE_WIFI_CONSOLE_CMD": true,
     "EXAMPLE_SKIP_COMMON_NAME_CHECK": false,
