@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "advanced_https_ota",
-    "project_version":    "72aaf4c-dirty",
+    "project_version":    "v0.0.0-2-gfc473ef-dirty",
     "project_path":       "C:/Users/simon/espProjects/advanced_https_ota",
     "idf_path":           "C:/Users/simon/esp/v5.3.2/esp-idf",
     "build_dir":          "C:/Users/simon/espProjects/advanced_https_ota/build",

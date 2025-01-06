@@ -11,6 +11,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "freertos/event_groups.h"
+#include "esp_crt_bundle.h"
 #include "esp_system.h"
 #include "esp_event.h"
 #include "esp_log.h"
@@ -126,9 +127,11 @@ void advanced_ota_example_task(void *pvParameter)
     esp_err_t ota_finish_err = ESP_OK;
     esp_http_client_config_t config = {
         .url = CONFIG_EXAMPLE_FIRMWARE_UPGRADE_URL,
-        .cert_pem = (char *)server_cert_pem_start,
+        .crt_bundle_attach=esp_crt_bundle_attach,
         .timeout_ms = CONFIG_EXAMPLE_OTA_RECV_TIMEOUT,
         .keep_alive_enable = true,
+        .buffer_size = 40960,
+        .buffer_size_tx = 40960
     };
 
 #ifdef CONFIG_EXAMPLE_FIRMWARE_UPGRADE_URL_FROM_STDIN
