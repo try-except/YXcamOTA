@@ -389,7 +389,7 @@ CONFIG_PARTITION_TABLE_MD5=y
 #
 # Example Configuration
 #
-CONFIG_EXAMPLE_FIRMWARE_UPGRADE_URL="https://gitlab.com/try-except/yxcamota/-/releases/permalink/latest"
+CONFIG_EXAMPLE_FIRMWARE_UPGRADE_URL="https://github.com/try-except/YXcamOTA/releases/latest/download/advanced_https_ota.bin"
 # CONFIG_EXAMPLE_SKIP_COMMON_NAME_CHECK is not set
 # CONFIG_EXAMPLE_SKIP_VERSION_CHECK is not set
 CONFIG_EXAMPLE_OTA_RECV_TIMEOUT=5000
